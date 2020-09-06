@@ -1,0 +1,346 @@
+/* Basic setup strat*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+    height: 3000px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    line-height: 150%;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+/* header and menu desing start */
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18;
+    text-transform: capitalize;
+    color: #404040 !important;
+
+}
+
+.menu ul li a:after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #404040;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover::after {
+    width: 100%;
+}
+
+.btn-custom {
+    background-color: #7f1a38;
+    border: 2px solid #7f1a38;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: 0.5s;
+    margin-top: -4px;
+}
+
+.btn-custom:hover {
+    background-color: transparent;
+}
+
+/* header and menu desing end */
+/* banner area desing start */
+.banner-area {
+    background: url(../img/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.banner-text h2 {
+    font-family: serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.head-design {
+    color: #7f1a38;
+}
+
+.banner-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.form-design {
+    background-color: #7f1a38;
+    opacity: 0.7;
+    padding: 2px 25px;
+    border-radius: 5px;
+}
+
+.form-design input {
+    border-radius: 0;
+    padding: 10px 15px;
+    margin-right: 0;
+
+}
+
+.form-control {
+    width: 100%;
+    margin-top: 8%;
+}
+
+.btn-custom-2 {
+    background-color: #ae2c52;
+    border-radius: 0;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 6px 40px;
+    margin-top: 8%;
+    width: 100%;
+
+}
+
+.form-design .col-lg-4 {
+    padding: 0 5px;
+}
+
+.form-after {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+/* banner area desing end */
+/* about us area desing start */
+.about-us-area {
+    padding-top: 65px;
+}
+
+.about-icon i {
+    font-size: 80px;
+    padding-bottom: 40px;
+}
+
+.about-service-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    text-transform: initial;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.about-service-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #9b9b9b;
+    padding: 0 7%;
+}
+
+.line-design {
+    border-top: 1px solid #eaeaea;
+    margin-top: 60px;
+    margin-bottom: 0;
+
+}
+
+/* about us area desing end */
+/* explore area design start */
+.explore-area {
+    padding: 70px 0;
+    background: #f9f9f9;
+}
+
+.explore-content h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: initial;
+    color: #404040;
+    padding-bottom: 40px;
+}
+
+.explore-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: initial;
+    color: #404040;
+    padding: 0 16%;
+
+}
+
+.custom-btn {
+    background: transparent;
+    border: 2px solid #7f1a38;
+    padding: 8px 30px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7f1a38;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.custom-btn:hover {
+    color: #7f1a38;
+}
+
+/* explore area design end */
+/* explore area start */
+
+.discover-area {
+    background: #32383d;
+    padding: 50px;
+}
+
+.discover-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+
+
+.custom-btn2 {
+    background: transparent;
+    border: 2px solid #ffffff;
+    padding: 8px 30px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.custom-btn2:hover {
+    color: #ffffff;
+}
+
+/* explore area end */
+/* testimonial area design start */
+.testimonial-area {
+    padding: 70px;
+    background-color: #09bbdb;
+}
+
+.testimonial-top i {
+    font-size: 40px;
+    color: #117486;
+    padding-bottom: 40px;
+}
+
+.testimonial-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: initial;
+    font-style: italic;
+    color: #ffffff;
+    padding: 0 10px;
+    position: relative;
+}
+
+.testimonial-text span {
+    color: #117486;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: none !important;
+    border-radius: 50%;
+    border: 1px solid #884e4e;
+    margin-bottom: 10px;
+
+}
+
+.carousel-indicators {
+    top: 107%;
+    margin-bottom: 3%;
+}
+
+.carousel-indicators li:hover {
+    background-color: #ffffff;
+}
+
+.carousel-indicators li:active {
+    background-color: #ffffff;
+}
+
+/* testimonial area design end */
+/* footer area start */
+.copyrite {
+    background: #242020;
+    padding: 50px 0;
+}
+
+.copyrite p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+/* footer area end */
+
+
+/*font-family: 'Open Sans', sans-serif;
+
+font-family: 'Raleway', sans-serif;*/
